@@ -1,0 +1,33 @@
+{
+  "name": "object-reference-resolver",
+  "version": "1.0.0",
+  "description": "Lets you Resolver Objects properties by referencing other objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arupex/object-reference-resolver.git"
+  },
+  "keywords": [
+    "resolve",
+    "resolver",
+    "object",
+    "reference"
+  ],
+  "author": "dirwin517",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/arupex/object-reference-resolver/issues"
+  },
+  "homepage": "https://github.com/arupex/object-reference-resolver#readme",
+  "devDependencies": {
+    "assert-diff": "^1.0.1",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "deep-setter": "^1.0.1",
+    "deep-value": "^1.0.2"
+  }
+}
